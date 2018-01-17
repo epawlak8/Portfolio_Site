@@ -1,0 +1,60 @@
+.top_banner {
+  width: 95%;
+  margin: 2%;
+}
+
+.logo_img{
+  width: 15%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+@media screen and (max-width: 663px){
+  .logo_img{ width: 25% }
+}
+
+@media screen and (max-width: 488px){
+  .logo_img{ width: 48%; }
+}
+
+@media screen and (max-width: 385px){
+  .logo_img{ width: 100%; }
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: right;
+  padding: 2%;
+  color: #2d3c49;
+}
+
+@media screen and (max-width: 385px){
+  .title { text-align: center; }
+}
+
+.name {
+  font-weight: 100;
+  font-size: 250%;
+}
+
+.position {
+  font-weight: 600;
+  font-size: 115%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.break {
+  width: 100%;
+  height: 1px;
+  margin: 2%;
+  padding: 2%;
+  color: #7d97ad;
+}
+
+hr.thin {
+height: 3px;
+border: 0;
+color: #7d97ad;
+background-color: #7d97ad;
+width: 95%;
+}
