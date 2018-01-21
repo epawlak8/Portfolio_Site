@@ -57,7 +57,7 @@
 
 /*this class uses code from Ove Klykken and can be found at:
 http://www.domedia.org/oveklykken/css-thin-horizontal-rule.php*/
-hr.thin {
+.thin {
 height: 3px;
 border: 0;
 color: #7d97ad;
@@ -82,17 +82,16 @@ width: 95%;
   color: #7d97ad;
 }
 
-.imagewithcaption {
-  overflow: hidden;
-  float: left;
-  margin-left: 1%;
+.flex_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.image_with_caption {
+  overflow: auto;
   padding: 2%;
-  width: 27%;
   text-align: center;
   color: #2d3c49;
   font-family: sans-serif;
-}
-
-@media screen and (max-width: 440px){
-  .imagewithcaption { width: 95%; margin-left: 0%; }
 }
